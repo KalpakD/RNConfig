@@ -53,7 +53,7 @@ function App(): JSX.Element {
             justifyContent:'center',
             alignSelf:'center'}}
             >
-              {Config.ENV }
+              {`${Config.ENV }${Config.VERSION_CODE}`}
               </Text>
         </View>
       </ScrollView>
